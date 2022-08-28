@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-container{
+    position: relative;
+}
+.front-img{
+    background-image: url("images/pexels-photo-687824.webp");
+    width:100%;
+    height: 710px;
+    
+}
+.nav-bar{
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: larger;
+    color: white;
+    padding: 10px;
+}
+.link{
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+    
+}
+.btn{
+    border-radius: 5px ;
+    border: 1px solid rgb(164, 2, 2);
+    padding: 5px;
+    background-color: rgb(174, 22, 5);
+    color: white;
+    font-size: larger;
+    
+}
+.btn:hover{
+    cursor: pointer;
+}
+.front-txt{
+    position: absolute;
+    top: 40vh;
+    left: 200px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+.story-container{
+    margin-top: 15px;
+}
+.full-width{
+    width: 100%;display: flex;
+}
+.half-width{
+    width:50%;
+    padding: 70px;
+}
+.half-width img{
+    width: 100%;
+}
+.chef-contianer{
+    margin-top: 15px;
+    background-color: rgb(241, 236, 237);
+}
+.chef-heading{
+    text-align: center;
+}
+.chef-photo{
+    display: flex;
+    width: 100%;
+}
+.card{
+    text-align: center;
+    padding: 20px;
+    
+}
+.card img{
+    width: 100%;
+    height: 90%;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+.menu-container{
+    margin-top: 15px;
+}
+.menu-photos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0px;
+    padding: 10px;
+}
+.menu-img img{
+
+    width: 100%;
+    height: 100%;
+}
+.menu-bottom-txt{
+    text-align: center;
+    padding: 100px;
+    background-color: gray;
+}
+.inp{
+    display: flex;
+    justify-content: space-between;
+}
+.input-f{
+    font-size: large;
+    border: none;
+    border-bottom: 2px solid GRAY;
+}
+.form{
+    padding: 30px;
+}
+.contact-container{
+    padding: 60px;
+}
+#text-area{
+    width: 100%;
+    height: 150px;
+}
+.btm-border{
+    border-top: 1px solid gray;
+}
+.foot-container{
+    
+}
+.foot-txt{
+    display: flex;
+    width: 100%;
+    
+}
+.foot-div{
+    width: 100%;
+    padding: 50px;
+}
+.foot-card{
+
+    text-align: center;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid;
+    height: 150px;
+    background-image: url("images/frontBanner.jpeg");
+}
